@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IlkConsole", "IlkConsole\IlkConsole.csproj", "{F37AB181-3383-47C1-B660-B5207FDDE015}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "helloworld", "helloworld\helloworld.csproj", "{95729A5D-88DC-40A1-B512-BD8AA3B48381}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "donguler", "denemev\donguler.csproj", "{B958396B-55D4-43BD-91A5-01F86C8EB460}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F37AB181-3383-47C1-B660-B5207FDDE015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37AB181-3383-47C1-B660-B5207FDDE015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37AB181-3383-47C1-B660-B5207FDDE015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37AB181-3383-47C1-B660-B5207FDDE015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95729A5D-88DC-40A1-B512-BD8AA3B48381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95729A5D-88DC-40A1-B512-BD8AA3B48381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95729A5D-88DC-40A1-B512-BD8AA3B48381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95729A5D-88DC-40A1-B512-BD8AA3B48381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B958396B-55D4-43BD-91A5-01F86C8EB460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B958396B-55D4-43BD-91A5-01F86C8EB460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B958396B-55D4-43BD-91A5-01F86C8EB460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B958396B-55D4-43BD-91A5-01F86C8EB460}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDD9EC88-ACD6-4B27-9F05-2E06FC47239D}
+	EndGlobalSection
+EndGlobal
