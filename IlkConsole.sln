@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "helloworld", "helloworld\he
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "donguler", "denemev\donguler.csproj", "{B958396B-55D4-43BD-91A5-01F86C8EB460}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diziler.app", "diziler.app\diziler.app.csproj", "{6E91992D-6B93-4ED1-A83F-93439BEC36B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B958396B-55D4-43BD-91A5-01F86C8EB460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B958396B-55D4-43BD-91A5-01F86C8EB460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B958396B-55D4-43BD-91A5-01F86C8EB460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E91992D-6B93-4ED1-A83F-93439BEC36B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E91992D-6B93-4ED1-A83F-93439BEC36B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E91992D-6B93-4ED1-A83F-93439BEC36B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E91992D-6B93-4ED1-A83F-93439BEC36B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -275,26 +275,111 @@
             {
                 number = rnd.Next(10);
                 Console.WriteLine("Between 1-10");
+                while (denemeHakki < 5)
+                {
+                    Console.WriteLine("Guess the number");
+                    int unumber = int.Parse(Console.ReadLine());
+                    if (unumber == number)
+                    {
+                        Console.WriteLine("You won");
+                        denemeHakki++;
+                        puan += 20;
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Try again");
+                        denemeHakki++;
+                    }
+                }
             }
             else if(level == 2)
             {
                 number = rnd.Next(30);
                 Console.WriteLine("Between 1-30");
+                while (denemeHakki < 10)
+                {
+                    Console.WriteLine("Guess the number");
+                    int unumber = int.Parse(Console.ReadLine());
+                    if (unumber == number)
+                    {
+                        Console.WriteLine("You won");
+                        denemeHakki++;
+                        puan += 30;
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Try again");
+                        denemeHakki++;
+                    }
+                }
             }
             else if (level == 3)
             {
                 number = rnd.Next(50);
                 Console.WriteLine("Between 1-50");
+                while (denemeHakki < 15)
+                {
+                    Console.WriteLine("Guess the number");
+                    int unumber = int.Parse(Console.ReadLine());
+                    if (unumber == number)
+                    {
+                        Console.WriteLine("You won");
+                        denemeHakki++;
+                        puan += 30;
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Try again");
+                        denemeHakki++;
+                    }
+                }
             }
             else if (level == 4)
             {
                 number = rnd.Next(80);
                 Console.WriteLine("Between 1-80");
+                while (denemeHakki < 20)
+                {
+                    Console.WriteLine("Guess the number");
+                    int unumber = int.Parse(Console.ReadLine());
+                    if (unumber == number)
+                    {
+                        Console.WriteLine("You won");
+                        denemeHakki++;
+                        puan += 40;
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Try again");
+                        denemeHakki++;
+                    }
+                }
             }
             else if (level == 5)
             {
                 number = rnd.Next(100);
                 Console.WriteLine("Between 1-100");
+                while (denemeHakki < 20)
+                {
+                    Console.WriteLine("Guess the number");
+                    int unumber = int.Parse(Console.ReadLine());
+                    if (unumber == number)
+                    {
+                        Console.WriteLine("You won");
+                        denemeHakki++;
+                        puan += 50;
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Try again");
+                        denemeHakki++;
+                    }
+                }
             }
             else
             {
@@ -302,23 +387,6 @@
                 return;
             }
 
-            while (denemeHakki < 7)
-            {
-                Console.WriteLine("Guess the number");
-                int unumber=int.Parse(Console.ReadLine());
-                if (unumber == number)
-                {
-                    Console.WriteLine("You won");
-                    denemeHakki++;
-                    puan += 10;
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Try again");
-                    denemeHakki++;
-                }
-            }
             Console.WriteLine("Game over");
             Console.WriteLine("Your point : " + puan.ToString());
 
